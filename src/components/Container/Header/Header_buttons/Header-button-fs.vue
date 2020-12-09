@@ -59,7 +59,6 @@ data(){
                if (selectionString.length != 0){
                document.execCommand("fontSize", true, "0");
                 const fontElements = selection.anchorNode.parentNode
-                console.log(fontElements)
                 fontElements.removeAttribute("size");
                 fontElements.style.fontSize = `${numberFs}px`;
                }
