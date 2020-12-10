@@ -59,9 +59,12 @@ data(){
         }
       }
       this.jsonObject= JSON.stringify(this.jsonObject, null, '\t');
-        alert("look at the console");
+
         console.log(this.jsonObject)
     }
+  },
+  mounted(){
+    alert("JSON look at the console");
   }
 }
 </script>
